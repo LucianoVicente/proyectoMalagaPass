@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="owl.theme.default.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/75f1400ec2.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="altura">
+
+        <div class="nav">
+            <nav class="navbar navbar-expand-lg navbar-light container-fluid justify-content-between">
+                <div class="container-fluid">
+                        <a class="navbar-brand mx-3" href="#home ">The Malaga Pass</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" href="#home">Home</a>
+                            <a class="nav-link" href="#ventajas">Ventajas</a>
+                            <a class="nav-link" href="#como-funciona">Cómo funciona</a>
+                            <a class="nav-link nav-link-comprar fw-semibold mx-3" href="#actividadesAComprar">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        
+        <div class="d-flex flex-column align-items-end me-3 canvas">
+
+        <i class="btn btn-secondary fa-solid fa-cart-shopping m-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"></i>
+
+<div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasTopLabel"></h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body d-flex flex-column" id="offcanvas-body">
+    <table class="table">
+        <div>
+        <thead>
+          <tr>
+            <th scope="col">Actividad</th>
+            <th scope="col">Precio</th>
+            <th scope="col">ID</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+    </div>
+
+        <tbody id="tabla-body">
+            
+        </tbody>
+
+        <tbody id="precio-total">
+
+        </tbody>
+        </table>
+
+    <button type="button" class="btn btn-primary w-25" id="boton-comprarr">Comprar</button>
+  </div>
+  
+</div>
+
+</div>
+
+       <section id="home">
+
+            <div class="container d-flex flex-column flex-md-row align-items-center div-header mt-5">
+                <div class="div-texto-header d-flex w-50 flex-column justify-content-center">
+                    <h1>The Malaga Pass®</h1>
+                    <h2>¡Haz que este sea tu mejor viaje a la Costa del Sol!</h2>
+                    <p>Disfruta de entrada a más de 10 de las principales atracciones de Málaga todo en un solo pase digital.</p>
+                    <p>Gracias a nuestra garantía de devolución del dinero de 365 días, puedes cambiar de planes.</p>
+
+                </div>
+
+                <div class="div-foto-header d-flex h-50 w-50 justify-content-center">
+                    <img src="img/malaga-foto.jpg" alt="foto-malaga" class="img-fluid h-75 w-75 rounded-circle">
+                </div>
+
+            </div>
+
+        </section>
+        
+
+    </header>
+
+    <main> 
+        
+        
+        <hr>
+        <section class="main-primera-seccion d-flex flex-column align-items-center my-5 py-5" id="ventajas">
+
+            
+            <div>
+                
+                <h3 class="text-center">¿Porqué elegir The Málaga Pass?</h3>
+                <p class="text-center">Puedes elegir hasta 10 de las actividades más visitas de la ciudad y al mejor precio.</p>
+            </div>
+
+            <div id="cardss" class="d-flex flex-md-row flex-column">
+
+            </div>
+
+        </section>
+
+        <hr>
+        <section id="actividadesAComprar">
+            
+            <div class="d-flex flex-column align-items-center">
+                <h3 class="mt-5 mb-5">Elige las actividades que desees realizar</h3>
+            </div>  
+
+            
+            <div class="carousel-wrapper d-flex align-items-center flex-column">
+            <div id="cards-actividades" class="owl-carousel owl-theme w-75">
+                
+               
+            </div>
+        </div>
+        
+
+            
+        </section>
+
+        <hr>
+        <section class="como-funciona d-flex flex-column align-items-center flex-md-row py-5" id="como-funciona">
+
+            <article class="w-50 d-flex flex-column align-items-center">
+                <img src="/img/como-funciona.jpg" alt="" class="rounded-circle">
+            </article>
+
+            <article class="w-50 d-flex flex-column justify-content-center">
+                <h3 class="mb-3">¿Cómo funciona?</h3>
+                <p class="mt-3"> <i class="fa-solid fa-check fa-2xl check me-3">    </i> Descarga tu pase a través de la aplicación oficial de New York Pass®.</p>
+                <p> <i class="fa-solid fa-check fa-2xl check me-3">    </i>Descubre nuestra selección de atracciones y empieza a reservar.</p>
+                <p> <i class="fa-solid fa-check fa-2xl check me-3">    </i>Escanea tu pase para entrar a las atracciones.</p>
+
+            </article>
+        </section>
+        
+
+    </main>
+
+
+    <footer class="footer text-center text-white">
+    
+    <div class="container p-4 pb-0">
+      
+      <section class="mb-4">
+        
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #3b5998;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #55acee;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+       
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #dd4b39;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #ac2bac;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+       
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #0082ca;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #333333;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      
+    </div>
+    
+  
+    
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      <h6>Desarrollado por Luciano Vicente | The Malaga Pass® 2022</h6>
+    </div>
+    
+  </footer>
+
+    
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="jquery.min.js"></script>
+<script src="owl.carousel.min.js"></script>
+<script src="java.js"></script>
+</body>
+</html>

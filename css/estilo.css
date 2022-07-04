@@ -1,0 +1,18 @@
+.nav-link-comprar {
+    background-color: #219ebc;
+    border-radius: 10px;
+    --bs-nav-link-color: white;
+}
+
+.navbar {
+    background-color: #edede9;
+}
+
+.check {
+    color: #8ac926;
+}
+
+.footer {
+    background-color: #edede9;
+}
+
